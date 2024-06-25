@@ -84,7 +84,7 @@ function PDFReader() {
     const inputText = pdfText;
     const apiUrl = 'https://api-inference.huggingface.co/models/facebook/fastspeech2-en-ljspeech';
     const apiKey = import.meta.env.VITE_APIKEY;
-    console.log(apiKey)
+   
 
     try {
         const response = await fetch(apiUrl, {
